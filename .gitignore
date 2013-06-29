@@ -1,0 +1,2 @@
+# Ignore performace test files
+src/PerformanceTest/*.txt
