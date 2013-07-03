@@ -1,9 +1,9 @@
 require "benchmark"
-require_relative "../BinaryTree/tree"
+require_relative "../BinaryTree/binary_tree"
 
 class BinaryTreePerformanceTest
 	def initialize
-		@binary_tree = Tree.new
+		@binary_tree = BinaryTree.new
 		@hash = Hash.new
 	end
 
