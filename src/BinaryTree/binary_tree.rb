@@ -20,5 +20,4 @@ class BinaryTree
 	def to_s
 		"#{@root_node.value}->#{@root_node}"
 	end
-
 end

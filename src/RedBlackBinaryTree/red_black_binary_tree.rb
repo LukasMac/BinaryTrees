@@ -12,4 +12,16 @@ class RedBlackBinaryTree
 	def root
 		@root_node
 	end
+
+	def left_depth
+		@root_node.left.depth
+	end
+
+	def right_depth
+		@root_node.left.depth
+	end
+
+	def max_depth
+		[right_depth, left_depth].max
+	end
 end
